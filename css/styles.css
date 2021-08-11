@@ -748,7 +748,7 @@ h2 {
   transform: translate(-50%, -50%);
   width: 528px;
   height: 581px;
-  padding: 30px 40px;
+  padding: 40px 40px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -778,6 +778,11 @@ h2 {
   line-height: 1.15;
   text-align: center;
   color: #212121;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  margin-bottom: 12px;
 }
 .data .label {
   width: 25px;
