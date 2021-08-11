@@ -366,10 +366,9 @@
         <h3 class="mailing-topic">Подпишитесь на рассылку</h3>
         <form class="mailing-form">
           <label for="user_email"></label>
-          <input class="test" type="email" name="email" id="user_email" placeholder="E-mail">
+          <input class="test" type="email" name="email" id="user_email" placeholder="E-mail" />
           <button class="bt-submit" type="submit">Подписаться</button>
         </form>
-        
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -379,6 +378,23 @@
             <use href="./images/svg/symbol-defs.svg#icon-close"></use>
           </svg>
         </button>
+        <form action="" class="data">
+          <h3 class="leave-data">Оставьте свои данные, мы вам перезвоним</h3>
+          <label class="label" for="user_name">Имя</label>
+          <input class="input" type="text" name="name" id="user_name" />
+          <label class="label" for="user_phone">Телефон</label>
+          <input class="input" type="tel" name="phone" id="user_phone" />
+          <label class="label" for="user_email">Почта</label>
+          <input class="input" type="email" name="email" id="user_email" />
+          <label class="label" for="comments_text">Комментарий</label>
+          <textarea name="comments" id="comments_text" rows="8" placeholder="Введите текст">
+          </textarea>
+          <div class="check">
+            <input type="checkbox" name="checkbox" id="checkbox_agreement" />
+            <label for="">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+          </div>
+          <button class="send" type="submit">Отправить</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>

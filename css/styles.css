@@ -223,72 +223,62 @@ span {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-.mailing{
+.mailing {
   margin-left: 93px;
 }
-.mailing-topic{
+.mailing-topic {
   margin: 0;
   padding-top: 12px;
   padding-bottom: 20px;
   font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
-.mailing-form input{
+.mailing-form input {
   width: 358px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-box-sizing: border-box;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-border-radius: 4px;
-background-color: #2F303A;
-padding: 15px 16px;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: #2f303a;
+  padding: 15px 16px;
 }
-.mailing-form input::placeholder{
+.mailing-form input::placeholder {
   width: 47px;
-height: 20px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 20px;
-/* display: flex;
+  height: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  /* display: flex;
 align-items: center; */
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
-.bt-submit{
+.bt-submit {
   position: absolute;
-width: 200px;
-height: 50px;
-margin-left: 12px;
-background: #2196F3;
-/* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
-border-radius: 4px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 30px;
-/* display: flex;
-align-items: center;
-text-align: center; */
-letter-spacing: 0.06em;
-color: #FFFFFF;
-
-
+  width: 200px;
+  height: 50px;
+  margin-left: 12px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
 }
-/* .test{
-  width: 50px;
-  height: 150px;
-  display: inline-block;
-  padding-left: 70px;
-} */
+
 /* Наши работы */
 .main {
   margin: 0px auto;
@@ -758,6 +748,7 @@ h2 {
   transform: translate(-50%, -50%);
   width: 528px;
   height: 581px;
+  padding: 30px 40px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -779,4 +770,82 @@ h2 {
 .modal-close svg {
   align-items: center;
   fill: #212121;
+}
+.data .leave-data {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  color: #212121;
+}
+.data .label {
+  width: 25px;
+  height: 14px;
+  margin-bottom: 4px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.17px;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+.data .input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.data textarea {
+  display: flex;
+  flex-direction: column;
+  width: 448px;
+  height: 120px;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  resize: none;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.17px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+.check {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+  margin-left: auto;
+  /* margin-right: auto; */
+}
+.data .send {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  border: none;
 }
