@@ -799,6 +799,7 @@ h2 {
   position: absolute;
   top: 50%;
   left: 12px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input:focus + .icon-forma {
   fill: #2196f3;
@@ -818,6 +819,7 @@ h2 {
   box-sizing: border-box;
   border-radius: 4px;
   padding-left: 42px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input:focus {
   outline: none;
@@ -833,6 +835,7 @@ h2 {
   box-sizing: border-box;
   border-radius: 4px;
   resize: none;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   font-style: normal;
   font-weight: normal;
